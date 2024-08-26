@@ -1,0 +1,22 @@
+name: 'EzContent paragraphs.'
+description: "Adds the article content type with paragraphs."
+type: 'Components'
+# note, that this needs to be plural:
+recipes:
+  # - ezcontent-base
+  # - ezcontent-media
+install:
+  - ezcontent_paragraphs
+  - color_field:color_field
+  - layout_builder_restrictions:layout_builder_restrictions
+  - layout_library:layout_library
+  - libraries:libraries
+  - colorbox:colorbox
+  - paragraphs_previewer:paragraphs_previewer
+  - slick_paragraphs:slick_paragraphs
+  - allowed_formats:allowed_formats
+  - paragraphs_jquery_ui_accordion:paragraphs_jquery_ui_accordion
+  - webform:webform
+  - slick:slick
+  - simple_gmap:simple_gmap
+  - viewsreference:viewsreference
