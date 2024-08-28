@@ -3,8 +3,8 @@ description: "Adds the article content type with paragraphs."
 type: 'Components'
 # note, that this needs to be plural:
 recipes:
-  # - ezcontent-base
-  # - ezcontent-media
+  - ezcontent-base-recipe
+  - ezcontent-media-recipe
 install:
   - ezcontent_paragraphs
   - color_field:color_field
