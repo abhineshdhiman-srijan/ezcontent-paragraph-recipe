@@ -20,3 +20,5 @@ install:
   - slick:slick
   - simple_gmap:simple_gmap
   - viewsreference:viewsreference
+  - fvm:fvm
+  
