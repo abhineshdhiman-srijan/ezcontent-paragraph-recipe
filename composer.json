@@ -10,9 +10,19 @@
         {
           "type": "vcs",
           "url": "https://github.com/abhineshdhiman-srijan/ezcontent-paragraphs"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/abhineshdhiman-srijan/ezcontent-base-recipe"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/abhineshdhiman-srijan/ezcontent-media-recipe"
         }
     ],
     "require": {
+        "abhineshdhiman-srijan/ezcontent-base-recipe": "dev-main",
+        "abhineshdhiman-srijan/ezcontent-media-recipe": "dev-main",
         "drupal/better_normalizers": "^2.0@beta",
         "drupal/entity_usage": "^2.0@beta",
         "drupal/fvm":"^2.0",
