@@ -15,6 +15,7 @@
     "require": {
         "drupal/better_normalizers": "^2.0@beta",
         "drupal/entity_usage": "^2.0@beta",
+        "drupal/fvm":"^2.0",
         "drupal/paragraphs_edit": "^3.0",
         "drupal/ezcontent_paragraphs": "dev-main",
         "drupal/color_field": "^3.0",
