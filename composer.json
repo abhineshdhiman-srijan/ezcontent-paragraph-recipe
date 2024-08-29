@@ -2,28 +2,6 @@
     "name": "drupal_recipe/ezcontent-paragraph-recipe",
     "description": "Adds the article content type with paragraphs.",
     "type": "drupal-recipe",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://git.drupalcode.org/issue/warmer-3467609"
-        },
-        {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        },
-        {
-          "type": "vcs",
-          "url": "https://github.com/abhineshdhiman-srijan/ezcontent-paragraphs"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/abhineshdhiman-srijan/ezcontent-base-recipe"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/abhineshdhiman-srijan/ezcontent-media-recipe"
-        }
-    ],
     "require": {
         "abhineshdhiman-srijan/ezcontent-base-recipe": "dev-main",
         "abhineshdhiman-srijan/ezcontent-media-recipe": "dev-main",
@@ -46,5 +24,6 @@
         "drupal/simple_gmap": "3.1.x-dev@dev",
         "drupal/viewsreference": "^2.0@beta"
     },
+    "minimum-stability": "dev",
     "license": "GPL-2.0-or-later"
 }
