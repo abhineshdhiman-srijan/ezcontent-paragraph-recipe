@@ -24,6 +24,5 @@
         "drupal/simple_gmap": "3.1.x-dev@dev",
         "drupal/viewsreference": "^2.0@beta"
     },
-    "minimum-stability": "dev",
     "license": "GPL-2.0-or-later"
 }
