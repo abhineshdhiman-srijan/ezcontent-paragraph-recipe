@@ -4,6 +4,10 @@
     "type": "drupal-recipe",
     "repositories": [
         {
+            "type": "vcs",
+            "url": "https://git.drupalcode.org/issue/warmer-3467609"
+        },
+        {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         },
